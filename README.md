@@ -14,7 +14,8 @@ Features:
 - mute/unmute command
 - seeking
 - video duration and remaining (by clicking on the label)
-- fullscreen, in the form: gtk3vlcplayer.py video.file --fullscreen
+- fullscreen, by pressing the f key or in the form: gtk3vlcplayer.py video.file --fullscreen
+- pause/play by pressing the space key
 - quit by pressing the esc key
 - play a new file by pressing the o key.
 
