@@ -9,6 +9,7 @@ Requirements:
 
 How to play a video file:
 gtk3vlcplayer.py video.file
+
 Optionals: OPTIONS --fullscreen
 where OPTIONS must be in the form: option1=value:option2=value (without "--" at the beginning).
 
