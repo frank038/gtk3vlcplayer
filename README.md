@@ -25,7 +25,7 @@ Features:
 - pause/play by pressing the space key
 - quit by pressing the esc key
 - play a new file by pressing the o key
-- accept (how many?) options for the media and the player from the command line.
+- accept (which ones?) options for the media and the player from the command line.
 
 This program supports a very few custom settings. They can be found and changed at the beginning of the file.
 
