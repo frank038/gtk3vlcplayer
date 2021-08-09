@@ -10,8 +10,9 @@ Requirements:
 How to play a video file:
 gtk3vlcplayer.py video.file
 
-Optionals: OPTIONS --fullscreen
-where OPTIONS must be in the form: option1=value:option2=value (without "--" at the beginning).
+Optionals: media:MEDIA_OPTIONS player:VIDEO_OPTIONS --fullscreen
+where MEDIA_OPTIONS must be in the form: option1=value:option2=value (without "--" at the beginning)
+and VIDEO_OPTIONS must be in the form: option1:option2 (without "--" at the beginning().
 
 Features:
 - headbar support, if enabled
@@ -24,7 +25,7 @@ Features:
 - pause/play by pressing the space key
 - quit by pressing the esc key
 - play a new file by pressing the o key
-- accept options in the form: option1=value:option2=value from the command line.
+- accept (how many?) options for the media and the player from the command line.
 
 This program supports a very few custom settings. They can be found and changed at the beginning of the file.
 
