@@ -29,6 +29,8 @@ Features:
 - quit by pressing the esc key
 - play a new file by pressing the o key
 - play a new url by pressing the u key
+- select a different audio track, if supported, by pressing the a key
+- select a (different) subtitle track, if supported, by pressing the s key
 - accept (which ones?) options for the media and the player from the command line.
 
 This program supports a very few custom settings. They can be found and changed at the beginning of the file.
