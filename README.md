@@ -15,7 +15,7 @@ where MEDIA_OPTIONS must be in the form: option1=value:option2=value (without "-
 and VIDEO_OPTIONS must be in the form: option1:option2 (without "--" at the beginning().
 
 Features:
-- play local media file
+- play local media files
 - play (direct) urls (initial or limited support), e.g.: gtk3vlcplayer.py "http://distribution.bbb3d.renderfarming.net/video/mp4/bbb_sunflower_1080p_30fps_normal.mp4"
 - play dvb programs (initial or limited support), e.g.: gtk3vlcplayer.py dvb-t:// media:dvb-adapter=0:dvb-frequency=xxxxxxxxx:dvb-bandwidth=x:program=xxxx
 - headbar support, if enabled
