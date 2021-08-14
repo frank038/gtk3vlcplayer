@@ -1,5 +1,5 @@
 #! /usr/bin/python3
-# 20210812
+# 20210812B
 ##################
 
 ### image size in each button
@@ -516,11 +516,14 @@ class ApplicationWindow(Gtk.Window):
         response = dialog.run()
         if response == Gtk.ResponseType.OK:
             new_url = dialog.get_result()
-            m = self.vlcInstance.media_new(str(new_url))
-            self.set_options(m)
-            self.player.set_media(m)
-            self.set_title(os.path.basename(str(new_url)))
-            self.newMedia()
+            if new_url:
+                m = self.vlcInstance.media_new(str(new_url))
+                self.set_options(m)
+                self.player.set_media(m)
+                self.set_title(os.path.basename(str(new_url)))
+                self.newMedia()
+            else:
+                self.oldMedia()
         elif response == Gtk.ResponseType.CANCEL:
             self.oldMedia()
         dialog.destroy()
