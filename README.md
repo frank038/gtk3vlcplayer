@@ -33,6 +33,7 @@ Features:
 - play a new url by pressing the u key
 - select a different audio track, if supported, by pressing the a key
 - select a (different) subtitle track, if supported, by pressing the s key
+- getting the some media infos by pressing the i key
 - accept (which ones?) options for the media and the player from the command line.
 
 This program supports a very few custom settings. They can be found and changed at the beginning of the file.
