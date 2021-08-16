@@ -3,7 +3,7 @@ A very simple vlc frontend made with python and gtk3.
 Free to use and modify
 
 Requirements:
-- python
+- python3
 - gtk3
 - vlc
 
@@ -37,5 +37,8 @@ Features:
 - accept (which ones?) options for the media and the player from the command line.
 
 This program supports a very few custom settings. They can be found and changed at the beginning of the file.
+
+Known issues:
+- the fullscreen by option or by pressing f key could not work at all.
 
 ![My image](https://github.com/frank038/gtk2vlcplayer/blob/main/screenshot.png)
