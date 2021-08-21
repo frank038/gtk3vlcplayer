@@ -39,6 +39,6 @@ Features:
 This program supports a very few custom settings. They can be found and changed at the beginning of the file.
 
 Known issues:
-- the fullscreen by option or by pressing f key could not work at all.
+- the fullscreen by option or by pressing the f key could not work at all.
 
 ![My image](https://github.com/frank038/gtk2vlcplayer/blob/main/screenshot.png)
