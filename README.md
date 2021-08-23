@@ -12,7 +12,7 @@ gtk3vlcplayer.py video.file
 
 To get help press the h key.
 
-Optionals: media:MEDIA_OPTIONS player:VIDEO_OPTIONS --fullscreen
+Optionals: media:MEDIA_OPTIONS player:VIDEO_OPTIONS
 where MEDIA_OPTIONS must be in the form: option1=value:option2=value (without "--" at the beginning)
 and VIDEO_OPTIONS must be in the form: option1:option2 (without "--" at the beginning().
 
@@ -26,7 +26,7 @@ Features:
 - mute/unmute command
 - seeking
 - video duration and remaining (by clicking on the label)
-- fullscreen, by pressing the f key or in the form: gtk3vlcplayer.py video.file --fullscreen
+- fullscreen, by pressing the f key
 - pause/play by pressing the space key
 - quit by pressing the esc key
 - play a new file by pressing the o key
@@ -34,11 +34,12 @@ Features:
 - select a different audio track, if supported, by pressing the a key
 - select a (different) subtitle track, if supported, by pressing the s key
 - get some media infos by pressing the i key
-- accept (which ones?) options for the media and the player from the command line.
+- accept (which ones?) options for the media and the player from the command line
+- application icon.
 
 This program supports a very few custom settings. They can be found and changed at the beginning of the file.
 
 Known issues:
-- the fullscreen by option or by pressing the f key could not work at all.
+- the fullscreen by pressing the f key could not work at all.
 
 ![My image](https://github.com/frank038/gtk2vlcplayer/blob/main/screenshot.png)
