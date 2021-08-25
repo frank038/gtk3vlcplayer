@@ -265,7 +265,7 @@ class ApplicationWindow():
             try:
                 pixbuf = Gtk.IconTheme.get_default().load_icon("gtk-media-play", BUTTON_ICON_SIZE, 0)
             except:
-                pixbuf = GdkPixbuf.Pixbuf.new_from_file_at_size("icons/none.png", BUTTON_ICON_SIZE, BUTTON_ICON_SIZE)
+                pixbuf = GdkPixbuf.Pixbuf.new_from_file_at_size("icons/media-playback-start.png", BUTTON_ICON_SIZE, BUTTON_ICON_SIZE)
         self.play_image = Gtk.Image.new_from_pixbuf(pixbuf)
         #
         try:
@@ -274,7 +274,7 @@ class ApplicationWindow():
             try:
                 pixbuf = Gtk.IconTheme.get_default().load_icon("gtk-media-pause", BUTTON_ICON_SIZE, 0)
             except:
-                pixbuf = GdkPixbuf.Pixbuf.new_from_file_at_size("icons/none.png", BUTTON_ICON_SIZE, BUTTON_ICON_SIZE)
+                pixbuf = GdkPixbuf.Pixbuf.new_from_file_at_size("icons/media-playback-pause.png", BUTTON_ICON_SIZE, BUTTON_ICON_SIZE)
         self.pause_image = Gtk.Image.new_from_pixbuf(pixbuf)
         #
         try:
@@ -283,7 +283,7 @@ class ApplicationWindow():
             try:
                 pixbuf = Gtk.IconTheme.get_default().load_icon("gtk-media-stop", BUTTON_ICON_SIZE, 0)
             except:
-                pixbuf = GdkPixbuf.Pixbuf.new_from_file_at_size("icons/none.png", BUTTON_ICON_SIZE, BUTTON_ICON_SIZE)
+                pixbuf = GdkPixbuf.Pixbuf.new_from_file_at_size("icons/media-playback-stop.png", BUTTON_ICON_SIZE, BUTTON_ICON_SIZE)
         self.stop_image = Gtk.Image.new_from_pixbuf(pixbuf)
         #
         self.playback_button = self.builder.get_object("button_play")
@@ -297,13 +297,13 @@ class ApplicationWindow():
         try:
             pixbuf = Gtk.IconTheme.get_default().load_icon("audio-volume-high", BUTTON_ICON_SIZE, 0)
         except:
-            pixbuf = GdkPixbuf.Pixbuf.new_from_file_at_size("icons/none.png", BUTTON_ICON_SIZE, BUTTON_ICON_SIZE)
+            pixbuf = GdkPixbuf.Pixbuf.new_from_file_at_size("icons/audio-volume-high.png", BUTTON_ICON_SIZE, BUTTON_ICON_SIZE)
         self.unmute_image = Gtk.Image.new_from_pixbuf(pixbuf)
         #
         try:
             pixbuf = Gtk.IconTheme.get_default().load_icon("audio-volume-muted", BUTTON_ICON_SIZE, 0)
         except:
-            pixbuf = GdkPixbuf.Pixbuf.new_from_file_at_size("icons/none.png", BUTTON_ICON_SIZE, BUTTON_ICON_SIZE)
+            pixbuf = GdkPixbuf.Pixbuf.new_from_file_at_size("icons/audio-volume-muted.png", BUTTON_ICON_SIZE, BUTTON_ICON_SIZE)
         self.mute_image = Gtk.Image.new_from_pixbuf(pixbuf)
         #
         self.toggle_mute_btn = self.builder.get_object("button_audio")
