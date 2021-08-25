@@ -798,3 +798,4 @@ if __name__ == '__main__':
     Gtk.main()
     window.player.stop()
     window.vlcInstance.release()
+    
