@@ -9,6 +9,7 @@ Requirements:
 
 How to play a video file:
 gtk3vlcplayer.py video.file
+(only gtk3vlcplayer.py in the dev version).
 
 To get help press the h key.
 
