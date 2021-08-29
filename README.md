@@ -8,10 +8,9 @@ Requirements:
 - vlc
 
 How to play a video file:
-gtk3vlcplayer.py video.file
-(and also gtk3vlcplayer.py in the dev version).
+gtk3vlcplayer.py OR gtk3vlcplayer.py video.file
 
-To get help press the h key.
+To get help press the button in the program or the h key.
 
 Optionals: media:MEDIA_OPTIONS player:VIDEO_OPTIONS
 where MEDIA_OPTIONS must be in the form: option1=value:option2=value (without "--" at the beginning)
@@ -28,13 +27,13 @@ Features:
 - seeking
 - video duration and remaining (by clicking on the label)
 - fullscreen, by pressing the f key
-- pause/play by pressing the space key
+- pause/play by pressing the space key (or the button)
 - quit by pressing the esc key
-- play a new file by pressing the o key
-- play a new url by pressing the u key
-- select a different audio track, if supported, by pressing the a key
-- select a (different) subtitle track, if supported, by pressing the s key
-- get some media infos by pressing the i key
+- play a new file by pressing the o key (or the button)
+- play a new url by pressing the u key (or the button)
+- select a different audio track, if supported, by pressing the a key (or the button)
+- select a (different) subtitle track, if supported, by pressing the s key (or the button)
+- get some media infos by pressing the i key (or the button)
 - accept (which ones?) options for the media and the player from the command line
 - application icon.
 
